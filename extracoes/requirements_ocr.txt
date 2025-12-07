@@ -1,0 +1,26 @@
+# Dependências para OCR e IA
+
+# OCR com Tesseract
+pytesseract>=0.3.10
+pdf2image>=3.1.0
+Pillow>=10.0.0
+
+# OpenAI Vision API
+openai>=1.0.0
+
+# Utilitários de imagem
+opencv-python>=4.8.0  # Para pré-processamento avançado de imagens
+numpy>=1.24.0  # Para manipulação de arrays
+
+# Dependências existentes (manter)
+PyMuPDF>=1.23.0
+pdfplumber>=0.9.0
+pdfquery>=0.4.3
+camelot-py[cv]>=0.10.1
+tabula-py>=2.7.0
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Extras para melhor performance OCR
+scikit-image>=0.21.0  # Para filtros de imagem
+scipy>=1.11.0  # Para processamento de sinais

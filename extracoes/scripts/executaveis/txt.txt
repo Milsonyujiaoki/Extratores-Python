@@ -1,0 +1,19 @@
+
+
+cd extracoes\scripts\executaveis
+
+$env:PATH="C:\Users\Maoki\poppler\poppler-23.11.0\Library\bin;$env:PATH"; $env:CURRENT_PROJECT=$null; $env:PDF_BASE_PATH="../../pdfs"; $env:RESULTS_BASE_PATH="../../resultados"; C:\Users\Maoki\.virtualenvs\Projetos-5b04BKsC\Scripts\python.exe extracao_openai_vision_novo.py
+
+
+
+OpenAI_Visions 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
+
+IRPF_Assistant_Key = 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
+
+
+estamos lidando com duplicatas de arquivos de resultados?
+verificando a existencia antes de criar?
+
+será que seria possivel gerar um arquivo que armazene informação sobre quais projetos foram processados com seus respectivos arquivos, faça uso do melhor tipo de arquivo que faça a leitura mais rapida para fazer a verificação escolha o metodo mais rapido
+
+alem disso caso  extracao_openai_vision_v4.py seja encerrado antes de terminar, como ira proceder

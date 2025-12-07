@@ -1,0 +1,3 @@
+extracao_openai_vision_novo -> asyncrono
+extracao_openai_vision_v3 -> asyncrono API + multithreading por nivel de Projeto
+extracao_openai_vision_v4 ->asyncrono API + multithreading por nivel de Projeto + gerenciado por fila

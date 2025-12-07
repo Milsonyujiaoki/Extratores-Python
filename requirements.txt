@@ -1,0 +1,57 @@
+# Dependências para o Extrator Avançado de PDFs
+# Instale com: pip install -r requirements.txt
+
+# === Core PDF Processing ===
+pdfplumber>=0.11.0           # Extração principal de texto de PDFs
+PyPDF2>=3.0.1                # Fallback para extração de texto
+pdf2image>=1.17.0            # Conversão de PDF para imagem (OCR)
+
+# === OCR (Optical Character Recognition) ===
+pytesseract>=0.3.13          # Interface Python para Tesseract OCR
+Pillow>=11.0.0               # Processamento de imagens
+
+# === Configuration Management ===
+configparser>=7.0.0          # Suporte para arquivos INI
+PyYAML>=6.0.1                # Suporte para arquivos YAML
+
+# === Async/Parallel Processing ===
+aiofiles>=24.1.0             # Operações assíncronas de arquivo
+asyncio                      # Já incluído no Python 3.7+
+
+# === Logging and Utilities ===
+colorlog>=6.8.2              # Logging com cores no console
+rich>=13.7.1                 # Interface rica para terminal
+
+# === Development & Testing ===
+pytest>=8.3.2               # Framework de testes
+pytest-asyncio>=0.24.0      # Testes para código assíncrono
+pytest-cov>=5.0.0           # Cobertura de testes
+
+# === Performance & Monitoring ===
+psutil>=6.0.0                # Monitoramento de sistema
+memory-profiler>=0.61.0     # Profiling de memória
+
+# === Optional: Enhanced Features ===
+# Descomente se quiser recursos adicionais
+
+# python-magic>=0.4.27       # Detecção avançada de tipos de arquivo
+# tqdm>=4.66.0               # Barras de progresso avançadas
+# matplotlib>=3.8.0          # Gráficos para relatórios
+# pandas>=2.2.0              # Análise de dados dos resultados
+
+# === Sistema Operacional ===
+# No Windows, você também precisará instalar:
+# 1. Tesseract OCR: https://github.com/UB-Mannheim/tesseract/wiki
+# 2. Poppler (para pdf2image): https://github.com/oschwartz10612/poppler-windows
+
+# === Notas de Instalação ===
+# Para Ubuntu/Debian:
+# sudo apt-get install tesseract-ocr tesseract-ocr-por poppler-utils
+#
+# Para macOS:
+# brew install tesseract poppler
+#
+# Para Windows:
+# 1. Baixe e instale Tesseract do link acima
+# 2. Baixe poppler-windows e adicione ao PATH
+# 3. Configure a variável de ambiente TESSDATA_PREFIX se necessário

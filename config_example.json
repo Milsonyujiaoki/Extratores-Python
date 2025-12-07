@@ -1,0 +1,16 @@
+{
+  "input_directory": "./pdfs",
+  "output_directory": "./output",
+  "output_format": "json",
+  "max_workers": 8,
+  "batch_size": 20,
+  "max_file_size_mb": 100,
+  "ocr_language": "por",
+  "ocr_dpi": 300,
+  "ocr_preserve_interword_spaces": true,
+  "enable_fallback": true,
+  "hybrid_text_threshold": 50,
+  "log_level": "INFO",
+  "save_original_filename": true,
+  "include_metadata": true
+}
